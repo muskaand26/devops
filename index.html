@@ -1,0 +1,89 @@
+<!doctype html>
+<html data-bs-theme="dark">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DEVOPS</title>
+    <link href="https://www.tibco.com/sites/tibco/files/media_entity/2021-04/Dev-ops-01.svg" rel="icon" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+        <header id="masthead" class="site-header" role="banner" style="top: 0px;">
+          <div class="container">
+    
+        </header>
+      </body>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+     <div>
+      <p><h1 style="text-align: center;" > WELCOME </h1></p>
+              
+              <h1 style="text-align: center;" > TO </h1>
+              
+              <h1 style="text-align: center;" > DEVOPS</h1></p>
+      
+     </div>
+    
+     <body>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script>
+        $(document).ready(function(){
+          $("#send").click(function(){
+            var message = $("#message").val();
+            $.ajax({
+              url: "chat.php",
+              type: "POST",
+              data: {message: message},
+              success: function(data){
+                $("#chat").html(data);
+              }
+            });
+          });
+        });
+       
+     </script>
+    
+      <body>
+        <div id="chat">
+            <ul>
+              <h4>Hello, user!</h4>
+            </ul>
+         </div>
+         <input type="text" id="message">
+         <input type="submit" id="send" value="Send">
+    </body>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-60d22378 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="60d22378" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/youtu.be\/vY8Yf4rpNVQ&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
+    <div class="elementor-background-video-container">
+              <iframe class="elementor-background-video-embed" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="HackerX Promo" width="640" height="360" src="Data Compression.mp4" id="widget2" style="width: 794px; height: 446.625px;"></iframe>
+            </div>
+      <div class="elementor-background-overlay"></div>
+  <div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4ae640d2" data-id="4ae640d2" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+    <div class="elementor-element elementor-element-714e1fea elementor-widget elementor-widget-text-editor elementor-motion-effects-parent animated fadeInDown" data-id="714e1fea" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:100,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="text-editor.default">
+<div class="elementor-widget-container elementor-motion-effects-element" style="--translateY: 19.28px; transform: translateY(var(--translateY));">
+  <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>					</div>
+</div>
+</div>
+</div>
+  </div>
+</section>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    </body>
+</html>

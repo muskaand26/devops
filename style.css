@@ -1,0 +1,263 @@
+
+.nav-link{
+  color:darkslategray;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor:pointer;
+  text-decoration: none;
+}
+body {
+background:black;
+
+animation: fadeBackground 6s;
+animation-fill-mode: forwards;
+}
+section{
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+nav{
+  animation: fadeBackground 6s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeBackground {
+ 
+  from { background-image: url(https://img.freepik.com/premium-photo/amazing-beautiful-starry-space-with-stars-cosmic-dark-wallpaper_338491-18591.jpg);}
+  to { background-image: url(https://elements-video-cover-images-0.imgix.net/files/b8a9baca-8b22-43df-8536-08e6f572d5d5/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=d445fbb46f06afdceb28ab3334576574); }
+}
+body {
+  background:black;
+
+  animation: fadeBackground 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeBackground {
+ 
+  from { background-image: url(https://img.freepik.com/premium-photo/amazing-beautiful-starry-space-with-stars-cosmic-dark-wallpaper_338491-18591.jpg);}
+  to { background-image: url(https://elements-video-cover-images-0.imgix.net/files/b8a9baca-8b22-43df-8536-08e6f572d5d5/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=d445fbb46f06afdceb28ab3334576574); }
+}
+
+#chat {
+  width: 300px;
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+}
+body {
+background:black;
+
+animation: fadeBackground 6s;
+animation-fill-mode: forwards;
+}
+
+
+.nav-link {
+
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+h2{
+
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+h6{
+
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+
+h5{
+-webkit-text-fill-color: white;
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+p{
+-webkit-text-fill-color: white;
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+li{
+-webkit-text-fill-color: white;
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
